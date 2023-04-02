@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.kindsapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.kindsapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.kindsapplication.app.modules.requesrproof.ui.RequesrProofActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.notification.ui.NotificationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.requestblood.ui.RequestBloodActivity" android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.kindsapplication.app.modules.adminhome.ui.AdminHomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.userdetails.ui.UserDetailsActivity" android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.kindsapplication.app.modules.adminblooddetails.ui.AdminBloodDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.donateblood.ui.DonateBloodActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.register.ui.RegisterActivity" android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.kindsapplication.app.modules.profile.ui.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.donatedetails.ui.DonateDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindsapplication.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+
+        <activity android:exported="true"
+            android:name="com.kindsapplication.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kindsapplication.app.modules.notidetails.ui.NotiDetailsActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>
