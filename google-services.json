@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35807269538",
+    "project_id": "code-red-be613",
+    "storage_bucket": "code-red-be613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35807269538:android:f7dd092425ed9dc90f7dfb",
+        "android_client_info": {
+          "package_name": "com.kindsapplication.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35807269538-gellhpk9lshn837ehnevgabtkd9j8027.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACSNbob_xqmX_p9kIhC76jm44_Kp4VNBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35807269538-gellhpk9lshn837ehnevgabtkd9j8027.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
